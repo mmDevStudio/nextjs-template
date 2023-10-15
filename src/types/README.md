@@ -1,0 +1,1 @@
+Speicher hier deine Typen und Interfaces
