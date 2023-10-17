@@ -32,7 +32,7 @@ Ein Dev Container ist eine Entwicklungsumgebung, die in einem Docker Container l
 
 GitHub Actions sind automatisierte Workflows, die auf GitHub ausgeführt werden. In diesem Projekt werden sie verwendet, um ein Docker Image zu erstellen und es auf den Docker Hub zu pushen. Die Actions werden in der `.github/workflows` definiert. Die verwendete Dockerkonfiguration befindet sich in dem `Dockerfile`. **Achtung**: Wenn man diese neu einrichtet, muss man die benötigten Umgebungsvariablen `DOCKERHUB_USERNAME` und `DOCKERHUB_TOKEN` in den Repository Secrets hinterlegen.
 
-# Husky und Lint Staged
+## Husky und Lint Staged
 
 Husky und Lint Staged sind zwei Tools, die zusammenarbeiten, um sicher zu stellen, dass nur Code committed wird, der den Linting Regeln entspricht. Husky ist ein Tool, das es ermöglicht, Git Hooks zu definieren. Lint Staged ist ein Tool, das es ermöglicht, Linting Regeln auf die **gestageten Dateien** anzuwenden.
 
